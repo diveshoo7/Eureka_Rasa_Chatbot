@@ -1,0 +1,353 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: admin_queries_connect
+  examples: |
+    - whom should I connect for admin queries
+    - who is the admin
+    - I have admin queries
+    - i have some admin queries
+    - i want to know who is the admin
+    - admin
+    - admin name
+    - admin mail
+    - i want to the admin email
+    - i want to know the admin's name
+    - admin queries
+
+- intent: admin_access_card
+  examples: |
+    - How can i get company access card
+    - access card
+    - company access card
+    - i want to know about the company access card
+    - whom should i connect for company access card
+    - how can i get company access card
+    - company access card
+
+- intent: admin_business_travel_request
+  examples: |
+    - create my business travel request
+    - how can i create my business travel request
+    - business travel request
+    - create business travel request
+    - how to create a business travel request
+    - i want to create a business travel request
+    - i would like to create a business travel request
+    - travel request
+    - how to create a travel request
+    - i want to know about my business travel request
+
+- intent: hr_leave
+  examples: |
+    - my leave balance
+    - what is my leave balance
+    - how to get my leave balance
+    - leave balance
+    - how many leave are there 
+    - how to know about my leave balance
+    - i want to check my leave balance
+    - check leave balance
+    - how many leaves have i got
+    - pending number of leaves
+    - status of my leave balance
+    - status of leaves balance
+    - my leaves balance status
+    - what is the status of my balance leaves
+    - how many leave have i got
+
+- intent: hr_raise_leave
+  examples: |
+    - how can i apply for leave
+    - apply leave
+    - apply leave request
+    - how to apply for leave request
+    - i want to apply for leave 
+    - i want to apply leave
+    - how can i apply leave
+    - raise leave request
+    - how to raise a leave request
+    - i want to raise a leave request
+    - want to raise leave request 
+
+- intent: hr_leave_carry
+  examples: |
+    - how many leaves are carried forward
+    - leaves carried forward
+    - leave carry forward
+    - leaves carry forward
+    - how much leaves can be carried forward
+    - how many leaves are to be carried forward
+    - leaves to be carried forward
+
+- intent: hr_company_working
+  examples: | 
+    - company working hours
+    - what are the company working hours
+    - working hours of the company
+    - how many hours do i have to work daily
+    - company working hours policy
+    - what is company working hour policy
+    - what are the company working hours policy
+    - company working hour 
+    - daily working hours
+    - daily working hour
+
+- intent: hr_dress_code
+  examples: |
+    - what is the dress code policy
+    - dress code policy
+    - dress code policy of the company
+    - what is the dress code policy of the company
+    - i want to know about the dress code policy
+    - want to know about the dress code
+    - dress code of the company
+    - dress code
+
+- intent: hr_referral_program
+  examples: |
+    - What is the reference process in our organization
+    - What are the rules for the referral bonus program
+    - referral process
+    - i want to know about the referral process
+    - i want to refer someone
+    - tell me about the reference process
+    - tell me about the referral process
+    - tell me about the referral process of the organisation
+    - i want to know about the referral process in the organisation
+    - how can i refer someone
+
+- intent: hr_reimbursement_policy
+  examples: |
+    - What are the eligibility criteria for external training reimbursement policy 
+    - Does the organization has any training reimbursement policy
+    - eligibility criteria for reimbursement policy
+    - what is reimbursement policy
+    - how can i reimburse the training amount
+    - how can i reimburse the certification amount
+    - reimbursing the training amount
+    - reimbursing the certification amount
+    - how to reimburse
+    - what is reimburse policy
+    - what is reimbursement policy of the organisation
+
+- intent: hr_background_verify
+  examples: |
+    - What is the process of background verification
+    - Is there any background verification done before joining the organization
+    - What will background verification include?
+    - background verification process
+    - i want to know about the background verification process
+    - how to do background verification
+    - whom to ask or contact regarding background verification
+    - i want to know verification process
+    - verification process
+
+- intent: hr_employee_resignation
+  examples: |
+    - What are the types of separation and processes
+    - What are employee resignation policies
+    - employee resignation policies
+    - i want to know about the resignation policies
+    - how to resign from the company
+    - how to resign from the organisation
+    - what is the process for the resignation
+    - the process of resignation 
+    - resignation process
+
+- intent: it_support
+  examples: |
+    - how should i get the support from IT department
+    - i need to contact IT department
+    - contact IT department
+    - need IT support
+    - IT support
+    - want to have IT support
+    - i have IT query 
+
+- intent: it_asset_usage_policy
+  examples: |
+    - Explain about IT Asset usage Policy 
+    - what are IT Asset usage Policy
+    - i want to know about the it asset policy
+    - please tell me about the it asset policy
+    - IT Asset usage Policy 
+    - IT Asset Policy 
+    - what all policies are there of it asset
+
+- intent: it_antivirus_policy
+  examples: |
+    - Explain about Anti-virus policy
+    - what is anti-virus policy
+    - i want to know about anti-virus policy
+    - anti-virus policy
+    - antivirus policy
+    - company anti-virus policy
+    - how do you handle the virus
+    - tell me about the anti virus policy
+
+- intent: it_password_policy
+  examples: |
+    - Explain about Password policy
+    - what is Password policy
+    - i want to know about Password policy
+    - how to enter the password in the company network
+    - Password policy
+    - company Password policy
+    - how do you enter the password
+    - tell me about the Password policy
+
+- intent: it_email_policy
+  examples: |
+    - Explain about email policy
+    - what is email policy
+    - i want to know about the email policy
+    - how to write the professional email
+    - email policy
+    - want to know the company email policy
+    - tell me about the email policy
+    - email policy of the company
+
+- intent: it_violated_policy
+  examples: |
+    - What if the IT Policy is violated
+    - the IT policy gets violated
+    - IT policy violated
+    - if the IT policy is breached
+    - IT policy gets breached or violated
+    - action to be taken when IT policy gets breached 
+    - action to be taken when IT policy gets violated 
+
+- intent: it_clearance_policy
+  examples: |
+    - Explain about IT clearance policy
+    - what is the it clearance policy
+    - what are the it clearance policies
+    - want to know about the IT clearance policy
+    - tell me about the IT clearance policy
+    - IT clearance policy
+    - what is the process of clearance of IT assets
+    - i want to know about the clearance of IT assets
+    - how to clear my IT assets
+
+- intent: it_data_backup_policy
+  examples: |
+    - Explain about Data backup policy. 
+    - what are the data backup policies
+    - want to know about the data backup policy
+    - tell me about the data backup policy
+    - data backup policy
+    - how can i backup my data
+    - i want to know how can i take backup of my data
+    - backing up my data
+    - how to take backups of the data
+    - data backup policy of the company
+    - how to take backup of the data
+
+- intent: it_media_disposal
+  examples: |
+    - explain about the media disposal policy
+    - what is the policy of media disposal
+    - how do IT team handle the disposal of the hardwares
+    - i want to know about the media disposal policy
+    - media disposal policy
+    - tell me about the media disposal policy
+    - how to dispose off teh media being used
+    - i want to dispose off the media 
+    - media disposal policy 
+    - tell me about the disposal policy
+    - disposal policy
+
+- intent: finance_salary_credited
+  examples: |
+    - when is my salary credited
+    - salary credited
+    - on which date does the salary gets credited
+    - i want to know the date of salary credited
+    - when does salary gets credited
+    - tell me the date when salary gets credited
+    - salary credited date
+    - date of salary credited
+    - salary credit date
+
+- intent: finance_travel_allowance
+  examples: |
+    - how much per day allowance one gets if travelling abroad
+    - how much per dim one gets
+    - how much cost company provides for daily expense when on-site
+    - how much will i get per day cost for expenses when traveling on-site
+    - on-site per day allowance
+    - on-site per day cost provided by company for expenses
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - good
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

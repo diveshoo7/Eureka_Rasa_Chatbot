@@ -1,0 +1,139 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: admin_queries path
+  steps:
+  - intent: admin_queries_connect
+  - action: utter_admin_queries
+
+- story: admin_access path
+  steps:
+  - intent: admin_access_card
+  - action: utter_admin_access_card
+
+- story: admin_travel_request path
+  steps:
+  - intent: admin_business_travel_request
+  - action: utter_admin_business_travel_request
+
+- story: hr_leave path
+  steps:
+  - intent: hr_leave
+  - action: utter_hr_leave
+
+- story: hr_raise_leave path
+  steps:
+  - intent: hr_raise_leave
+  - action: utter_hr_raise_leave
+
+- story: hr_leave_carry path
+  steps:
+  - intent: hr_leave_carry
+  - action: utter_hr_leave_carry
+
+- story: hr_company_working_hours path
+  steps:
+  - intent: hr_company_working
+  - action: utter_hr_company_working
+
+- story: hr_dress_code path
+  steps:
+  - intent: hr_dress_code
+  - action: utter_hr_dress_code
+
+- story: hr_referral_program path
+  steps:
+  - intent: hr_referral_program
+  - action: utter_hr_referral_program
+
+- story: hr_reimbursement_policy path
+  steps:
+  - intent: hr_reimbursement_policy
+  - action: utter_hr_reimbursement_policy
+
+- story: hr_background_verify path
+  steps:
+  - intent: hr_background_verify
+  - action: utter_hr_background_verify
+
+- story: hr_employee_resignation path
+  steps:
+  - intent: hr_employee_resignation
+  - action: utter_hr_employee_resignation
+  - action: action_separation
+
+- story: it_support path
+  steps:
+  - intent: it_support
+  - action: utter_it_support
+
+- story: it_asset_usage_policy path
+  steps:
+  - intent: it_asset_usage_policy
+  - action: utter_it_asset_usage_policy
+
+- story: it_antivirus_policy path
+  steps:
+  - intent: it_antivirus_policy
+  - action: utter_it_antivirus_policy
+
+- story: it_password_policy path
+  steps:
+  - intent: it_password_policy
+  - action: utter_it_password_policy
+
+- story: it_email_policy path
+  steps:
+  - intent: it_email_policy
+  - action: utter_it_email_policy
+
+- story: it_violated_policy path
+  steps:
+  - intent: it_violated_policy
+  - action: utter_it_violated_policy
+
+- story: it_clearance_policy path
+  steps:
+  - intent: it_clearance_policy
+  - action: utter_it_clearance_policy
+
+- story: it_data_backup_policy path
+  steps:
+  - intent: it_data_backup_policy
+  - action: utter_it_data_backup_policy
+
+- story: it_media_disposal path
+  steps:
+  - intent: it_media_disposal
+  - action: utter_it_media_disposal
+
+- story: affirm path
+  steps:
+  - intent: affirm
+  - action: utter_affirm_msg
+
+- story: deny path
+  steps:
+  - intent: deny
+  - action: utter_deny_msg
+
+- story: affirm path
+  steps:
+  - intent: affirm
+  - action: utter_affirm_msg
+
+- story: finance_travel_allowance path
+  steps:
+  - intent: finance_travel_allowance
+  - action: utter_finance_travel_allowance
+
+- story: finance_salary_credited path
+  steps:
+  - intent: finance_salary_credited
+  - action: utter_finance_salary_credited

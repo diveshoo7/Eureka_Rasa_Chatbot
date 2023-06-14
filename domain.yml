@@ -1,0 +1,138 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - bot_challenge
+  - admin_queries_connect
+  - admin_access_card
+  - admin_business_travel_request
+  - hr_leave
+  - hr_raise_leave
+  - hr_leave_carry
+  - hr_company_working
+  - hr_dress_code
+  - hr_referral_program
+  - hr_reimbursement_policy
+  - hr_background_verify
+  - hr_employee_resignation
+  - it_support
+  - it_asset_usage_policy
+  - it_antivirus_policy
+  - it_password_policy
+  - it_email_policy
+  - it_clearance_policy
+  - it_data_backup_policy
+  - it_media_disposal
+  - it_violated_policy
+  - finance_salary_credited
+  - finance_travel_allowance
+
+actions:
+  - action_separation
+
+responses:
+  utter_greet:
+  - text: "Hii! My name is Mario\n \nHow may I assist you?"
+
+#  utter_thanks:
+#  - text: "I'm glad I was able to help you out"
+
+#  utter_deny:
+#  - text: "Please tell me the area to improve"
+
+#  utter_did_that_help:
+#  - text: "Did that help you out?"
+
+  utter_admin_queries:
+  - text: "You can connect with Nikhil Chaudhary or email him at nikhil.chaudhari@wuerth-it.com"
+
+  utter_admin_access_card:
+  - text: "For Wurth IT Accesss cards, please send an email at nikhil.chaudhari@wuerth-it.com and admin@wurth-it.com with your passport size photo in red background"
+
+  utter_admin_business_travel_request:
+  - text: "Please contact the admin Nikhil Chaudhari to create an account for Wurth IT India Travel Application and login to Travel Portal(http://10.110.31.36/WurthITPortal/login). Please note that this request is subject to manager approval"
+
+  utter_hr_leave:
+  - text: "You can check your leave balance on [Kompass] (https://performancemanager10.successfactors.com/sf/timeoff?_s.crb=KyvXQ%2fs6ji47twvlswvSzMIzNXjRdmxcisL%2fqS97f8g%3d)"
+
+  utter_hr_raise_leave:
+  - text: "a.There are 5 kinds of leave which can be availed under different circumstances.\n \ni. Annual Leave (22 Days)\n \nii. Maternity Leave (26 weeks)\n \niii. Paternity Leave (5 days)\n \niv. Bereavement Leave (3 Days)\n \nv.Leave without Pay (30 Days)\n \nb. You can apply for an absence on [Kompass] (https://performancemanager10.successfactors.com/sf/timeoff?_s.crb=KyvXQ%2fs6ji47twvlswvSzMIzNXjRdmxcisL%2fqS97f8g%3d)"
+
+  utter_hr_leave_carry:
+  - text: "a. An employee can only carry forward annual leaves of maximum 10 days. Other leave categories are not accumulated.For more details [click here](https://drive.google.com/file/d/1__yLXxAGo2SABwn3BL4lnE9RUmFQJFEE/view?usp=drive_link) "
+
+  utter_hr_company_working:
+  - text: "The organization follows 5 days a week and 9 hours a day as the work set-up.\n \nThe working week starts from Monday and ends at Friday. Weekends are referred as Saturday & Sunday, and are treated as weekly off.\n \nThe employees have flexibility of ‘in-time’ between 8 am to 10 am and corresponding ‘out-time’ of 5 am to 7 am. The core business hours will be 10 am to 5 pm. Please [click here](https://drive.google.com/file/d/1ld4gb8FVnndBPj0iOZvxa4T1BSAzVaZA/view?usp=drive_link) to view more."
+
+  utter_hr_dress_code:
+  - text: "Weekday Dressing (other than the last working day of the week) should be formals or business casuals.\n \nWeekend Dressing (the last working day of the week) should be smart casuals\n \nFor more details about leave policy [click here](https://drive.google.com/file/d/1ld4gb8FVnndBPj0iOZvxa4T1BSAzVaZA/view?usp=drive_link)"
+
+  utter_hr_referral_program:
+  - text: "Refer candidates who meet the qualifications to our HR department through Talentpool – Maya portal.\n \nLink for Talentpool – [Maya portal](https://wuerth.thetalentpool.co.in/web/bot/#/) \n \n For more details please [click here](https://drive.google.com/file/d/11CE524SsNd_Iz-PYUoDmqDifNxoggpuH/view?usp=drive_link)"
+
+  utter_hr_reimbursement_policy:
+  - text: "a) All Full-time employees who have completed one year in the organization.\n \nb) The employee should not be serving his/her notice period\n \nc) The proposed training / certification in specialized skills is deemed necessary and relevant to the Company’s vision and growth plans and the contents & costs of the proposed training/certification is pre-approved by the BU.\n \n d) Every employee availing the benefit of this policy is required to sign a Service agreement with the Company effective after successful completion of the training/certification.\n \nFor more details please [click here](https://drive.google.com/file/d/1SJ62HJ3ASR02LyvEo9AD54K-oiFgiFmr/view?usp=drive_link)"
+
+  utter_hr_background_verify:
+  - text: "Employee Invite- Employee will receive the portal invite to submit the required documents for the verification via Email/SMS followed by the login credentials using the digital form.\n \nDocuments check- All necessary submitted documents will be reviewed, and if any are missing, the employee must resubmit the missing documents/information within the given timeline.\n \nInitiation of the verification process- Once all the required information is obtained, the employee's verification process will be commenced, and the digital report will be sent to the designated HR personnel.\n \nYou can check for more details [here](https://drive.google.com/file/d/1PtmJSWwATsvXjUBMNiGm8h1Rb8EROSTf/view?usp=drive_link)"
+
+  utter_hr_employee_resignation:
+  - text: "SEPARATION IN CASE OF RESIGNATION: An employee wishing to leave the company will submit a resignation letter through e-mail to the reporting manager, copying the HR representative, requesting the date of relieving.\n \nSEPARATION IN CASE OF RETIREMENT: The retirement age from the services of the company is 60 years\n \nSEPARATION IN CASE OF OTHER SCENARIOS: In case of employee exit due to other reasons such as termination (due to disciplinary action), absconding, performance issues or employee demise, the HR BP will take the necessary action to close the process.\n \nFor more details [click here](https://drive.google.com/file/d/1JwbcbCWXuR0GK-mizFp03z_5jVxzcEYB/view?usp=drive_link)"
+
+  utter_it_support:
+  - text: "You can send e-mail to witin.servicedesk@wurth-it.in to create a service request."
+
+  utter_it_asset_usage_policy:
+  - text: "Few of the policies are.\n \nOwnership of Assets is with IT Team.\n \nBut responsibility remains with User.\n \nUser has to use system for bussiness perpose and follow all IT policies and guidelines.\n \nLoss damage of asset will be recovered from employee’s salary. Please [click here](https://drive.google.com/file/d/18jT256VP9npA8Cte8AccrqAkZOGTfRk8/view?usp=drive_link) for more details. "
+
+  utter_it_antivirus_policy:
+  - text: "McAfee Endpoint Protection Anti-virus is official antivirus.\n \nScan new attachment with anti-virus, downloaded Data before opening it.\n \nUSB drives, DVD is not allowed. Can be allowed if there is business requirement. But user has to get an approval from CISO (Chief Information Security Officer- Schenk, Lucas-Philipp) or BU Head. "
+
+  utter_it_password_policy:
+  - text: "Recommended to use different password each time.\n \nNot to share password with anyone on. Keep all passwords in keepass or password protected excel sheet.\n \nKeep strong password and must be as long as possible (include mixed-case letters, Include digits, a special character and any number. Avoid use of personal names, DOB, phone number etc.) "
+
+  utter_it_email_policy:
+  - text: "E-mail communication only for Business purpose.\n \nMake sure you are not sending virus /malware infected file through attachment.\n \nE-mail Forwarding to non- Wurth IT e-mail ID not allowed, unless business demands. "
+
+  utter_it_violated_policy:
+  - text: "User will get e-mail from IT Team (CISO and reporting manager will be in CC.\n \nManagement can take strict action for IT Policy violation on case-to-case basis. "
+
+  utter_it_clearance_policy:
+  - text: "User must submit IT clearance form to IT department along with all IT assets with him/her.\n \nIT team will check conditions of IT assets.If there any damages or asset loss, then charges will be deducted from employee’s salary."
+
+  utter_it_data_backup_policy:
+  - text: "User must save company data on department share on file server.\n \nUser must save all data on D drive instead of saving on the desktop. Therefore, data can recover if laptop is formatted. "
+
+  utter_it_media_disposal:
+  - text: "When no longer usable, hard drives, diskettes, tape cartridges, CDs, ribbons, hard copies, printouts, and other similar items used to process, store and/or and classified and sensitive data shall be properly disposed of in accordance with measures established by Wurth IT India. "
+
+  utter_affirm_msg:
+  - text: "That's great. Have a great day!!"
+
+  utter_deny_msg:
+  - text: "How may I further assist you?"
+
+  utter_finance_salary_credited:
+  - text: "The salary gets credited on 28th of every month."
+
+  utter_finance_travel_allowance:
+  - text: "The company provide 50 Euro if traveling to Europe else 50 USD for other countries."
+
+  utter_goodbye:
+  - text: "Bye\n \nHave I answered all your queries?"
+    buttons:
+      - title: "Yes"
+        payload: '/affirm'
+      - title: "No"
+        payload: '/deny'
+
+  utter_iamabot:
+  - text: "My name is Mario.\n \nI'm powered with the help of [chat-o-licks] team!!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
